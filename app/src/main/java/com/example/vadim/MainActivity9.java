@@ -31,16 +31,7 @@ public class MainActivity9 extends AppCompatActivity {
                 }
             }
         });
-        check2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked){
-                    check1.setChecked(false);
-                    check3.setChecked(false);
-                    check4.setChecked(false);
-                }
-            }
-        });
+
         check3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
